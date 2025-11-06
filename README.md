@@ -502,27 +502,22 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [python-docx](https://github.com/python-openxml/python-docx) - Reads, queries and modifies Microsoft Word 2007/2008 docx files.
     * [textract](https://github.com/deanmalmgren/textract) - Extract text from any document: PDF, Word, PowerPoint, and more.
 * Email Processing
-    * [flanker](https://github.com/mailgun/flanker) - An email address and MIME parsing library for forensic analysis.
-    * [imbox](https://github.com/martinrusev/imbox) - Python IMAP for Humans - useful for email collection.
     * [mailparser](https://github.com/SpamScope/mail-parser) - A Python library to parse emails and extract metadata, attachments, and body content.
-* Search and Indexing
-    * [elasticsearch-py](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html) - The official low-level Python client for Elasticsearch.
-    * [whoosh](http://whoosh.readthedocs.io/en/latest/) - A fast, pure Python search engine library for full-text indexing.
-* Text Analysis
-    * [spacy](https://spacy.io/) - Industrial-strength Natural Language Processing for entity recognition and text analysis.
-    * [textacy](https://github.com/chartbeat-labs/textacy) - Higher-level NLP built on spaCy for advanced text analytics.
-* File Identification
-    * [python-magic](https://github.com/ahupp/python-magic) - A Python interface to the libmagic file type identification library.
+    * Also see [Email](#email) section for additional email libraries.
 * Deduplication
     * [datasketch](https://github.com/ekzhu/datasketch) - Probabilistic data structures for large-scale similarity search and deduplication.
-    * [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) - Fuzzy string matching for detecting near-duplicates.
+    * Also see [Text Processing](#text-processing) section for string similarity libraries.
 * OCR
     * [pytesseract](https://github.com/madmaze/pytesseract) - Python wrapper for Google's Tesseract-OCR Engine.
-* Data Analysis
-    * [pandas](http://pandas.pydata.org/) - High-performance data structures and analysis tools for structured data review.
 * Metadata Extraction
     * [exifread](https://github.com/ianare/exif-py) - Read Exif metadata from images and TIFF files.
     * [hachoir](https://github.com/vstinner/hachoir) - View and edit binary files as a tree of fields for metadata extraction.
+* Also see:
+    * [Data Analysis](#data-analysis) - For analyzing structured data.
+    * [File Manipulation](#file-manipulation) - For file type identification.
+    * [Natural Language Processing](#natural-language-processing) - For text analysis and entity recognition.
+    * [Search](#search) - For full-text indexing solutions.
+    * [Specific Formats Processing](#specific-formats-processing) - For working with Office and PDF files.
 
 ## Editor Plugins and IDEs
 
@@ -1244,6 +1239,8 @@ Your contributions are always welcome! Please take a look at the [contribution g
 - - -
 
 If you have any question about this opinionated list, do not hesitate to contact me [@VintaChen](https://twitter.com/VintaChen) on Twitter or open an issue on GitHub.
+
+
 
 
 
